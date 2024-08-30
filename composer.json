@@ -1,0 +1,26 @@
+{
+    "name": "maximaster/bitrix-ufo",
+    "description": "Дополнительные типы UF-полей и фреймворк работы с ними.",
+    "license": "MIT",
+    "minimum-stability": "RC",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Maximaster\\BitrixUfo\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "maximaster/bitrix-enums": "*",
+        "maximaster/bitrix-table-fields": "^1.0.0"
+    },
+    "suggest": {
+        "league/uri": "^6.5 для UrlField",
+        "nepada/email-address": "^3.1 для EmailField"
+    },
+    "authors": [
+        {"name": "Лавриненко Максим", "email": "maxim.lavrinenko@maximaster.ru"},
+        {"name": "Мельников Максим", "email": "m.melnikov@maximaster.ru"},
+        {"name": "Лепесин Сергей", "email": "s.lepesin@maximaster.ru"}
+    ]
+}

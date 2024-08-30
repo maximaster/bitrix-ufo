@@ -1,0 +1,40 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "php74Packages.composer@latest": {
+      "last_modified": "2022-06-09T23:02:28Z",
+      "resolved": "github:NixOS/nixpkgs/99fcf0ee74957231ff0471228e9a59f976a0266b#php74Packages.composer",
+      "source": "devbox-search",
+      "version": "2.3.5",
+      "systems": {
+        "aarch64-linux": {
+          "store_path": "/nix/store/8xcxwsq276zw9pighwkk670lmh250ksq-php-composer-2.3.5"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/gwaic1p2ckr2r3c7cpi4h2gn40jrigpz-php-composer-2.3.5"
+        }
+      }
+    },
+    "php@7.4": {
+      "last_modified": "2022-06-09T23:02:28Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/99fcf0ee74957231ff0471228e9a59f976a0266b#php74",
+      "source": "devbox-search",
+      "version": "7.4.29",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/p06m3r8qc8w2l4hv3vq0642yxgxpcg2c-php-with-extensions-7.4.29"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/1m976qsswziaj1vrr3p8xprh73j8snsi-php-with-extensions-7.4.29"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/qxlqpk6skzjjxn0x0kbjn6npa19d0hil-php-with-extensions-7.4.29"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/37vsxwxxfdcfmyc76yvl4n1aqanak8jy-php-with-extensions-7.4.29"
+        }
+      }
+    }
+  }
+}

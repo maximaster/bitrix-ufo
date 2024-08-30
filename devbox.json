@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "php@7.4",
+    "php74Packages.composer@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
